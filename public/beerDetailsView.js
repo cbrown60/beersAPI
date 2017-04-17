@@ -9,7 +9,7 @@ BeerDetailsView.prototype = {
 
 render: function(beer){
   var pTag = document.createElement('p')
-  pTag.innerText = 'the ABV of this beer is '+beer.abv + ' %'
+  pTag.innerText = beer.description + '\n' + 'The ABV of this beer is '+beer.abv + ' %'
   this.detailsElement.appendChild(pTag)
 },
 

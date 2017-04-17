@@ -1,7 +1,22 @@
-main{
+body{
+    background-image: url('https://images8.alphacoders.com/413/413078.jpg');
+    width: auto;
+  }
+
+h1{
+  color: white;
+}
+
+p{
+  color: white ;
+}
+
+
+/*main{
   width: 300px;
   margin: 0 auto;
-}
+
+
 
 input{
   padding: 10px;
@@ -13,4 +28,4 @@ input{
 
 .album{
   padding: 5px;
-}
+}*/
